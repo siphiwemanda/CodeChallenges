@@ -63,7 +63,7 @@ namespace CodeChallenges.Tests
         {
             //Arrange
             var calculation = new ReverseInteger();
-            //act
+            //Act
             var reversed = calculation.Reverse(1534236469);
             //Assert
             Assert.Equal(0,reversed);

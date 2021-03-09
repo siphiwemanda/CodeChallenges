@@ -6,10 +6,10 @@ namespace CodeChallenges
     {
         public int Reverse(int numbers)
         {
-            return numbers > 0 ? PositiveCalculation(numbers) : negativeCalculation(numbers);
+            return numbers > 0 ? PositiveCalculation(numbers) : NegativeCalculation(numbers);
         }
 
-        private int negativeCalculation(int numbers)
+        private int NegativeCalculation(int numbers)
         {
             var n = numbers;
             var newNumber = 0;
