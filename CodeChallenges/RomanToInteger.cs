@@ -10,8 +10,8 @@ namespace CodeChallenges
         public int RomanToInt(string numbers)
         {
 
-            char[] romanNumerals = numbers.ToCharArray();
-            List<int> numericalNumbers = new List<int>();
+            var romanNumerals = numbers.ToCharArray();
+            var numericalNumbers = new List<int>();
             
             var dictionary = new Dictionary<char, int>()
             {
@@ -48,7 +48,6 @@ namespace CodeChallenges
             
             foreach (var (key,value) in variationDictionary)
             {
-               
                 if (numbers.Contains(key))
                 {
                     x += value;
